@@ -24,16 +24,16 @@
 ### I'm 18 years old Self-taught Android developer from Pune.
 
 
-#### - 🥀 Learning MySQL <code><img height="20" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/mysql.svg"></code>,Software  <code> <img height="20" width="16" src="https://assets.vercel.com/image/upload/v1538361091/repositories/next-js/next-js.png"> </code> &Typescript <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>.
+#### - 🥀 Learning MySQL <code><img height="30" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/mysql.svg"></code>,Software Testing <code> <img height="25" width="25" src="icon/regression.png"> </code> &Typescript <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>.
 
 
 
 
-#### - 🔭 SpaceX FanBoi, 
+#### - 🔭 Data Structure & Algorithm, 
 
-#### - 🛸 Into High Energy Physics and Astrophysics
+#### - 🛸 Entc Engineer
 
-#### - 💬 Connect? Here 👉🏼[<img src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/svg/social/twitter.svg" >](https://twitter.com/8bithemant/)
+#### - 💬 Connect? Here 👉🏼+91 8459810529
 
 
 <br />
