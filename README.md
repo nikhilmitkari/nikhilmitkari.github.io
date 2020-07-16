@@ -33,7 +33,8 @@
 
 #### - 🛸 Entc Engineer
 
-#### - 💬 Connect? Here 👉🏼+91 8459810529
+#### - 💬 Connect? Here 👉🏼+91 8459810529  <a href="mailto:nikhilmitkari.7@gmail.com"> <img align="left" alt="WhatsApp" width="22px" src="icon/gmail.png" />
+</a>
 
 
 <br />
