@@ -42,7 +42,7 @@
 
 **I am Into , 🙏**
 
-**Machine Learning, Web Development,  Application Design & Development, Competetive Programming 😼**
+** Web Development,  Application Design & Development, Competetive Programming 😼**
 <br />
 
 
