@@ -19,6 +19,10 @@
   <img align="left" alt="WhatsApp" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/whatsapp.svg" />
 </a>
 
+<br />
+
+<img align="right" height="299px" width="450px" alt="GIF" src="https://github.com/nikhilmitkari/nikhilmitkari/blob/master/icon/pp-removebg-preview.png" />
+<br />
 
 ### Hi 🙋‍♂️,
 ### I'm 18 years old Self-taught Android developer from Pune.
