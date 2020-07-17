@@ -1,3 +1,5 @@
+<img src="https://github.com/nikhilmitkari/nikhilmitkari/blob/master/icon/Teal%20Polaroid%20Wellness%20Influencer%20Facebook%20Cover.png">
+
 ### Hi there, I'm Nikhil 👋.  <img src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/svg/pronouns/hehim.svg" >
 
 
