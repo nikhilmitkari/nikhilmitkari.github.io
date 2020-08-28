@@ -20,6 +20,9 @@
 <a href="https://api.WhatsApp.com/send?phone=+91-8459810529">
   <img align="left" alt="WhatsApp" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/whatsapp.svg" />
 </a>
+<a href="https://dev.to/nikhilmitkari">
+  <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="nikhilmitkari's DEV Profile" height="30" width="30">
+</a>
 
 <br />
 
