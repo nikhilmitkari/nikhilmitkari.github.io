@@ -6,19 +6,23 @@
 <br/>
 
 <a href="https://www.linkedin.com/in/nikhil-m-3632b9100/">
-  <img align="left" alt="Linkedin" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+  <img align="left" alt="Linkedin" width="100px" src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/social/linkedin.svg" />    
+                                                                <!-- https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg -->
 </a>
 <a href="https://t.me/Kurama39">
-  <img align="left" alt="Telegram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg" />
+  <img align="left" alt="Telegram" width="100px" src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/social/telegram.svg" />    
+                                                                <!--https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg -->
 </a>
 <a href="https://www.instagram.com/the_mutant39/">
-  <img align="left" alt="Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
+  <img align="left" alt="Instagram" width="100px" src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/social/instagram.svg" />    
+                                                                   <!-- https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg-->
 </a>
 <a href="https://www.facebook.com/nikhil.mitkari.1">
-  <img align="left" alt=" FaceBook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/facebook.svg" />
+  <img align="left" alt=" FaceBook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/facebook.svg" />     <!-- -->
 </a>
 <a href="https://api.WhatsApp.com/send?phone=+91-8459810529">
-  <img align="left" alt="WhatsApp" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/whatsapp.svg" />
+  <img align="left" alt="WhatsApp" width="100px" src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/social/whatsapp.svg" />       
+                                                                     <!-- https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/whatsapp.svg-->
 </a>
 <a href="https://dev.to/nikhilmitkari">
   <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="nikhilmitkari's DEV Profile" height="30" width="30">
@@ -30,7 +34,7 @@
 <br />
 
 ### Hi 🙋‍♂️,
-### I'm 18 years old Self-taught Android developer from Pune.
+### I'm 22 years old Self-taught Android developer from Pune.
 
 
 #### - 🥀 Learning MySQL <code><img height="30" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/mysql.svg"></code>,Software Testing <code> <img height="25" width="25" src="icon/regression.png"> </code> &Typescript <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>.
