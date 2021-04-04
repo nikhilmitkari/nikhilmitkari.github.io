@@ -34,7 +34,7 @@
 <br />
 
 ### Hi 🙋‍♂️,
-### I'm 22 years old Self-taught Android developer from Pune.
+### I'm 22 years old Self-taught Android developer from Hyderabad.
 
 
 #### - 🥀 Learning MySQL <code><img height="30" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/mysql.svg"></code>,Software Testing <code> <img height="25" width="25" src="icon/regression.png"> </code> &Typescript <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>.
