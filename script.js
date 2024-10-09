@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    hideElementsAfterDelay('projects', 10000); // 10000 milliseconds = 10 seconds
+    hideElementsAfterDelay('projects', 3000); // 10000 milliseconds = 10 seconds
 });
 
 // Function to hide elements with the specified class using jQuery
