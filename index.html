@@ -1,9 +1,7 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nikhil Mitkari Portfolio</title>
@@ -20,14 +18,77 @@
         </nav>
     </header>
 
-    <section id="about">
-        <h1>Hello, I'm Nikhil</h1>
-        <p>I’m a software developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on AEM development at a software company in Hyderabad.</p>
-    </section>
+    <section id="about" class="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>
+                Hello! I'm Nikhil Mitkari, a passionate software developer based in Hyderabad, India. 
+                With a strong foundation in Adobe Experience Manager (AEM), I specialize in building 
+                scalable and high-performance web applications that provide exceptional user experiences.
+            </p>
+            <p>
+                My journey in the tech industry began with a curiosity for how things work behind the scenes. 
+                I graduated with a degree in Computer Science and have since honed my skills in front-end and 
+                back-end development, focusing on crafting seamless digital solutions that meet client needs 
+                and drive business growth.
+            </p>
+            <p>
+                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
+                or sharing my knowledge through blogging. I believe in continuous learning and strive to stay updated 
+                with industry trends to provide innovative solutions.
+            </p>
+            <p>
+                I'm always eager to collaborate on exciting projects and contribute to impactful initiatives. 
+                Feel free to reach out if you’re interested in working together!
+            </p>
+        </div>
+    </div>
+</section>
 
 
-<h1 class="nik-construction">Sorry! Portfolio is under construction</h1>
-   <!-- <section id="projects">
+
+<!-- <h1 class="nik-construction">Sorry! Portfolio is under construction</h1> -->
+<div class="construction-wrapper">
+    <h1 class="nik-construction">Sorry! Portfolio is under construction</h1>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="150" height="150">
+        <!-- Gradient Definitions -->
+        <defs>
+          <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#12c2e9;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#c471ed;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#f64f59;stop-opacity:1" />
+          </linearGradient>
+      
+          <linearGradient id="gearGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#fcb045;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#fd1d1d;stop-opacity:1" />
+          </linearGradient>
+        </defs>
+      
+        <!-- Tech construction worker (hexagon body) -->
+        <polygon points="150,40 120,100 150,160 180,100" stroke="white" stroke-width="3" fill="url(#techGradient)" />
+      
+        <!-- Gear icon on top -->
+        <circle cx="150" cy="40" r="20" stroke="white" stroke-width="3" fill="url(#gearGradient)" />
+        <line x1="150" y1="20" x2="150" y2="60" stroke="white" stroke-width="3" />
+        <line x1="130" y1="40" x2="170" y2="40" stroke="white" stroke-width="3" />
+      
+        <!-- Legs -->
+        <line x1="130" y1="160" x2="130" y2="220" stroke="white" stroke-width="3" />
+        <line x1="170" y1="160" x2="170" y2="220" stroke="white" stroke-width="3" />
+        
+        <!-- Futuristic construction sign -->
+        <rect x="80" y="220" width="140" height="40" fill="url(#gearGradient)" stroke="white" stroke-width="3" />
+        <text x="90" y="245" font-family="Arial" font-size="14" fill="white">Under Construction</text>
+      
+        <!-- Ground line -->
+        <line x1="50" y1="260" x2="250" y2="260" stroke="white" stroke-width="3" />
+      </svg>
+
+  </div>
+  
+   <section id="projects">
         <h2>Some Things I’ve Built</h2>
         <div class="project">
             <h3>Project Title</h3>
@@ -41,8 +102,9 @@
         <h2>Get In Touch</h2>
         <p>Interested in working together? Feel free to reach out!</p>
         <a href="mailto:nikhilmitkari.7@gmail.com" class="contact-button">Say Hello</a>
+        <a href="telnet:+918459810529" class="contact-button"> Call me here</a>
     </section>
- -->
+
     <footer>
         <p>Built by Nikhil Mitkari</p>
     </footer>
