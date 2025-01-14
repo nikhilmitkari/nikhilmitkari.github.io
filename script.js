@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
        const message = document.getElementById('message').value;
 
        // EmailJS configuration
-       emailjs.init("nikhilmitkari.7@gmail.com");  // Replace with your USER_ID from EmailJS
+       emailjs.init("MqfT9E_0vLXBcP8-J"); 
 
        emailjs.send('service_mf7a1m6', 'template_a056cwp', {
            from_name: name,
