@@ -1,10 +1,26 @@
-$(document).ready(function() {
-    hideElementsAfterDelay('projects', 3000); // 10000 milliseconds = 10 seconds
-});
+// script.js
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+       event.preventDefault();  // Prevent the default form submission
 
-// Function to hide elements with the specified class using jQuery
-function hideElementsAfterDelay(className, delay) {
-    setTimeout(() => {
-        $('#' + className).fadeOut(1000); // Use jQuery's hide() method
-    }, delay);
-}
+       // Collect form data
+       const name = document.getElementById('name').value;
+       const email = document.getElementById('email').value;
+       const message = document.getElementById('message').value;
+
+       // EmailJS configuration
+       emailjs.init("nikhilmitkari.7@gmail.com");  // Replace with your USER_ID from EmailJS
+
+       emailjs.send('service_mf7a1m6', 'template_a056cwp', {
+           from_name: name,
+           from_email: email,
+           message: message
+       })
+       .then((response) => {
+           alert('Your message was sent successfully!');
+       }, (error) => {
+           alert('Failed to send message. Please try again.');
+       });
+   });
+});
+    

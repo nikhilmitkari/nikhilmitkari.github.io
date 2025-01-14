@@ -1,155 +1,131 @@
-	/* Global Styles */
-	/* Ensure the whole page takes up the full height of the viewport */
-
+/* styles.css */
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    font-family: 'Helvetica Neue', sans-serif;
-    background-color: #0a192f;
-    color: #ccd6f6;
+    padding: 0;
     line-height: 1.6;
-} 
-html{
-	scroll-behavior: smooth;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 header {
-    /* display: flex;
-    justify-content: flex-end;
-    padding: 20px; */
-    position: fixed; /* This makes the header stay fixed at the top */
-    top: 0;          /* Aligns the header to the top of the page */
-    width: 100%;     /* Makes sure the header stretches across the entire width */
-    background-color: #0a192f; /* Add a background color to ensure it’s visible */
-    z-index: 10;     /* Ensures the header stays on top of other content */
-    padding: 10px 0;
+    background: linear-gradient(to right, #4CAF50, #45a049);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    margin: 0.5rem 0;
 }
 
 nav ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
 }
 
 nav ul li {
-    display: inline-block;
-    margin-left: 20px;
+    margin: 0 1rem;
 }
 
 nav ul li a {
-    color: #64ffda;
+    color: white;
     text-decoration: none;
-    font-size: 18px;
+    padding: 0.5rem;
+    transition: background 0.3s;
 }
 
 nav ul li a:hover {
-    color: #ccd6f6;
+    background: #4CAF50;
+    border-radius: 5px;
 }
 
-/* About Section */
-#about {
-    text-align: center;
-    padding: 100px 20px;
-}
-.nik-construction{
-	 text-align: center;
-    padding: 100px 20px;
-}
-#about h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
 }
 
-#about p {
-    font-size: 1.2rem;
-    max-width: 600px;
-    margin: 0 auto;
+section h2 {
+    color: #4CAF50;
+    margin-bottom: 1rem;
 }
 
-/* Projects Section */
-#projects {
-    padding: 100px 20px;
-    background-color: #112240;
-}
-
-#projects h2 {
-    font-size: 2.5rem;
-    text-align: center;
-    color: #64ffda;
+section ul {
+    list-style-type: disc;
+    margin: 0 0 1rem 1.5rem;
 }
 
 .project {
-    background-color: #0a192f;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-}
-
-.project h3 {
-    color: #ccd6f6;
-}
-
-.project p {
-    color: #8892b0;
-}
-
-.project-link {
-    color: #64ffda;
-    text-decoration: none;
-}
-
-.project-link:hover {
-    color: #ccd6f6;
-}
-
-/* Contact Section */
-#contact {
-    text-align: center;
-    padding: 100px 20px;
-}
-
-#contact h2 {
-    font-size: 2.5rem;
-    color: #64ffda;
-}
-
-.contact-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #64ffda;
-    color: #0a192f;
-    text-decoration: none;
+    background: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    font-size: 18px;
-    margin-top: 20px;
 }
 
-.contact-button:hover {
-    background-color: #ccd6f6;
-}
-
-/* Footer */
 footer {
+    background: #333;
+    color: white;
     text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
     padding: 20px;
-    background-color: #112240;
-    color: #8892b0;
-    position: fixed;
-    bottom: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.form-group {
     width: 100%;
+    margin-bottom: 15px;
 }
 
-footer p {
-    margin: 0;
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
 }
 
-.construction-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center; /* Centers the content horizontally */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
 }
 
-.nik-construction {
-  margin-right: 10px; /* Adds space between text and SVG */
-  font-family: Arial, sans-serif;
-  font-size: 24px;
+textarea {
+    resize: none;
+}
+
+.btn-submit {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #45a049;
 }

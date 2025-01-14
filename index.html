@@ -1,114 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nikhil Mitkari Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 </head>
+
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Nikhil Mitkari</h1>
+            <p>AEM Developer | Problem Solver | AEM Certified Professional</p>
+        </div>
     </header>
 
-    <section id="about" class="about">
-    <div class="container">
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="container">
         <h2>About Me</h2>
-        <div class="about-content">
-            <h1>Hello! I'm Nikhil Mitkari</h1>
-            <p>
-                a passionate software developer based in Hyderabad, India. 
-                With a strong foundation in Adobe Experience Manager (AEM), I specialize in building 
-                scalable and high-performance web applications that provide exceptional user experiences.
-            </p>
-            <p>
-                My journey in the tech industry began with a curiosity for how things work behind the scenes. 
-                I graduated with a degree in Computer Science and have since honed my skills in front-end and 
-                back-end development, focusing on crafting seamless digital solutions that meet client needs 
-                and drive business growth.
-            </p>
-            <p>
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
-                or sharing my knowledge through blogging. I believe in continuous learning and strive to stay updated 
-                with industry trends to provide innovative solutions.
-            </p>
-            <p>
-                I'm always eager to collaborate on exciting projects and contribute to impactful initiatives. 
-                Feel free to reach out if you’re interested in working together!
-            </p>
-        </div>
-    </div>
-</section>
+        <p>Welcome to my portfolio! <br>
+            I am a passionate and results-driven Adobe Experience Manager (AEM) Developer with [X years] of experience
+            in designing, developing, and deploying high-performing, scalable, and user-centric digital solutions. My
+            expertise lies in leveraging the full potential of Adobe Experience Manager to create seamless content
+            management workflows, dynamic websites, and personalized user experiences that drive business growth.
+            With a strong foundation in Java, Sling, OSGi, and frontend technologies, I specialize in building robust
+            AEM components, templates, and integrations with third-party systems. I have successfully worked on complex
+            implementations, migrations, and upgrades, ensuring optimal performance and scalability for enterprise-level
+            clients.
 
+            What sets me apart is my ability to:
+            Deliver innovative solutions that align with business goals.
+            Collaborate effectively with cross-functional teams to bring ideas to life.
+            Stay up-to-date with the latest AEM trends and best practices.
+            I thrive in challenging environments where I can apply my skills to solve problems, streamline workflows,
+            and enhance user experiences. My goal is to consistently deliver exceptional value to the organizations I
+            work with.
 
+            Feel free to connect with me to discuss AEM development, digital transformation, or how we can work together
+            to create impactful digital experiences.
+        </p>
+    </section>
 
-<!-- <h1 class="nik-construction">Sorry! Portfolio is under construction</h1> -->
-<div class="construction-wrapper">
-    <h1 class="nik-construction">Sorry! Portfolio is under construction</h1>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="150" height="150">
-        <!-- Gradient Definitions -->
-        <defs>
-          <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:#12c2e9;stop-opacity:1" />
-            <stop offset="50%" style="stop-color:#c471ed;stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#f64f59;stop-opacity:1" />
-          </linearGradient>
-      
-          <linearGradient id="gearGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:#fcb045;stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#fd1d1d;stop-opacity:1" />
-          </linearGradient>
-        </defs>
-      
-        <!-- Tech construction worker (hexagon body) -->
-        <polygon points="150,40 120,100 150,160 180,100" stroke="white" stroke-width="3" fill="url(#techGradient)" />
-      
-        <!-- Gear icon on top -->
-        <circle cx="150" cy="40" r="20" stroke="white" stroke-width="3" fill="url(#gearGradient)" />
-        <line x1="150" y1="20" x2="150" y2="60" stroke="white" stroke-width="3" />
-        <line x1="130" y1="40" x2="170" y2="40" stroke="white" stroke-width="3" />
-      
-        <!-- Legs -->
-        <line x1="130" y1="160" x2="130" y2="220" stroke="white" stroke-width="3" />
-        <line x1="170" y1="160" x2="170" y2="220" stroke="white" stroke-width="3" />
-        
-        <!-- Futuristic construction sign -->
-        <rect x="80" y="220" width="140" height="40" fill="url(#gearGradient)" stroke="white" stroke-width="3" />
-        <text x="90" y="245" font-family="Arial" font-size="14" fill="white">Under Construction</text>
-      
-        <!-- Ground line -->
-        <line x1="50" y1="260" x2="250" y2="260" stroke="white" stroke-width="3" />
-      </svg>
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li><b>AEM:</b> Sites, DAM, HTL, OSGI, MSM, Workflows, Editable/Static Templates, edit/design Dialog, 6.5 SP
+                Upgrade, Migration, CRX</li>
+            <li><b>Framework:</b> OSGi, OAK, Granite & Coral UI, Sling Web, JCR</li>
+            <li><b>Programming:</b> Java, Servlets, HTML, CSS, JS, Slightly/HTL, RESTful Web Service</li>
+            <li><b>Tools:</b> Jenkins, Git, SVN, Maven, SonarQube, Splunk, AWS, AppDynamics, Jira, Digital.ai</li>
+            <li><b>Database:</b> SQL Developer, pgAdmin</li>
+        </ul>
+    </section>
 
-  </div>
-  
-   <!-- <section id="projects">
-        <h2>Some Things I’ve Built</h2>
+    <section id="projects" class="container">
+        <h2>Projects</h2>
         <div class="project">
-            <h3>Project Title</h3>
-            <p>Description of the project and the technologies used.</p>
-            <a href="https://github.com/nikhilmitkari" class="project-link">View on GitHub</a>
-        </div>
-      
-    </section> -->
+            <h3>Project 1: FDP (Fedex Developer Portal)</h3>
+            <p>One of the key projects I have worked on is the FedEx Developer Portal, where I was responsible for the
+                design, development, and implementation of custom AEM components, templates, and workflows to enhance
+                content management and improve user experience. In this project, I built reusable AEM components using
+                HTL and Sling Models, which allowed for efficient content delivery and streamlined front-end/back-end
+                collaboration. I also handled Digital Asset Management (DAM), ensuring that digital assets were properly
+                organized, optimized, and easily accessible, adhering to FedEx’s content strategy.
 
-    <section id="contact">
-        <h2>Get In Touch</h2>
-        <p>Interested in working together? Feel free to reach out!</p>
-        <a href="mailto:nikhilmitkari.7@gmail.com" class="contact-button">Say Hello</a>
-        <a href="telnet:+918459810529" class="contact-button"> Call me here</a>
+                Throughout the project, I utilized AppDynamics and Splunk to conduct performance monitoring, identifying
+                and resolving bottlenecks to ensure high availability and low latency during peak traffic periods. My
+                experience working with REST APIs via AEM’s Sling framework enabled seamless data retrieval and
+                submission between backend systems. Additionally, I worked closely with content authors to ensure
+                content was aligned with branding and messaging guidelines, providing authoring support to facilitate
+                efficient content creation and publishing.
+
+                Collaboration was key to the success of this project, as I partnered with UX/UI designers, project
+                managers, backend developers, and QA teams to participate in Agile ceremonies and ensure that project
+                goals were met on time. I also contributed to technical documentation and provided post-deployment
+                support, minimizing downtime and ensuring smooth handovers to operations teams. Through this project, I
+                gained extensive experience in cloud-based deployments, CI/CD pipeline management, and security best
+                practices, making sure the portal adhered to compliance standards and remained secure in production
+                environments.
+
+                This project allowed me to showcase my AEM development skills, performance optimization expertise, and
+                collaborative abilities, contributing significantly to the successful delivery of a high-performing and
+                scalable digital portal for FedEx.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2: Avis Budget Group</h3>
+            <p>In this project, I played a key role as part of an Agile team responsible for enhancing the digital
+                presence across multiple domains (AU, NZ, US, CN). My primary responsibilities included Content
+                Management through AEM, where I worked closely with business stakeholders to ensure seamless content
+                delivery, align brand messaging, and optimize user engagement across various regions. I designed and
+                developed reusable AEM components using Java and the OSGi framework, ensuring flexibility and
+                reusability across different domains and brands (Avis, Budget, Payless, Budget Truck).
+
+                I was actively involved in creating workflows and schedulers to automate and manage recurring tasks,
+                such as content publishing, data synchronization, and system maintenance, ensuring smooth and efficient
+                operations across the different brand portals. My role also included deploying code to various
+                environments, from development to production, using tools like Jenkins and AWS, ensuring continuous
+                integration and delivery (CI/CD).
+
+                Additionally, I managed AEM configurations to ensure the application runs smoothly on the server,
+                optimizing the portal for high availability and performance across multiple domains (AU, NZ, US, CN). I
+                collaborated closely with cross-functional teams, including UX/UI designers, content authors, backend
+                developers, and QA teams, to align project goals, provide technical insights, and ensure timely
+                delivery.
+
+                This project strengthened my expertise in multibrand AEM development, cross-domain content management,
+                workflow creation, server deployments, and AEM configuration tuning, while working in a dynamic Agile
+                environment.
+
+            </p>
+        </div>
+    </section>
+
+    <section id="resume" class="container">
+        <h2>Resume</h2>
+        <p>You can download my resume by clicking the button below:</p>
+        <a href="resume.pdf" download class="btn">Download Resume</a>
+    </section>
+
+    <section id="resume" class="container">
+        <h2>Resume</h2>
+        <p>You can download my resume by clicking the button below:</p>
+        <a href="Nikhil_Mitkari_AEM_Developer_Resume.pdf" download class="btn">Download Resume</a>
+    </section>
+
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form id="contact-form" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here"
+                    required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Send Message</button>
+        </form>
     </section>
 
     <footer>
-        <p>Built by Nikhil Mitkari</p>
-        <script src="script.js" defer></script>
+        <p>&copy; 2025 Nikhil Mitkari. All Rights Reserved.</p>
     </footer>
 </body>
+
 </html>
